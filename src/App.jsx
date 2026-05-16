@@ -169,7 +169,6 @@ const translations = {
       title: 'Contact',
       subtitle: 'Get in touch with us in a way that suits you',
       phone: 'Phone',
-      address: 'Registration address',
       email: 'Email',
       formTitle: 'Write to us',
       namePlaceholder: 'Your name',
@@ -229,7 +228,7 @@ function App() {
               {t.header.langSwitch}
             </button>
             <a
-              href="#contact"
+              href="tel:+37060568625"
               className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white px-5 py-2.5 rounded-xl text-sm font-semibold transition-all shadow-lg shadow-blue-700/25 hover:shadow-xl hover:shadow-blue-700/30"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -532,25 +531,8 @@ function App() {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">{t.contact.phone}</h4>
                   <a href="tel:+37063149603" className="text-xl text-blue-700 hover:text-blue-800 font-medium transition-colors">
-                    +370 631 49 603
+                    +370 605 68625
                   </a>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-5">
-                <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <svg className="w-5 h-5 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">{t.contact.address}</h4>
-                  <p className="text-gray-600 leading-relaxed">
-                    Pasvalio r. sav., Vaškų sen., Nairių k.,<br />
-                    Maučiuvio g. 17-4, LT-39380<br />
-                    {t.contact.lithuania}
-                  </p>
                 </div>
               </div>
 
@@ -562,8 +544,8 @@ function App() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">{t.contact.email}</h4>
-                  <a href="mailto:info@knauss-logistics.com" className="text-blue-700 hover:text-blue-800 font-medium transition-colors">
-                    info@knauss-logistics.com
+                  <a href="mailto:Knausslogistic2026@gmail.com" className="text-blue-700 hover:text-blue-800 font-medium transition-colors">
+                    Knausslogistic2026@gmail.com
                   </a>
                 </div>
               </div>
@@ -618,8 +600,6 @@ function App() {
                 <svg className="w-12 h-12 text-gray-400 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
                 </svg>
-                <p className="text-gray-500 text-sm font-medium">Pasvalio r. sav., Vaškų sen., Nairių k.</p>
-                <p className="text-gray-400 text-xs mt-1">Maučiuvio g. 17-4, LT-39380</p>
               </div>
             </div>
           </div>
@@ -665,14 +645,10 @@ function App() {
               <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">{t.footer.contactsTitle}</h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <a href="tel:+37063149603" className="hover:text-white transition-colors">+370 631 49 603</a>
+                  <a href="tel:+37063149603" className="hover:text-white transition-colors">+370 605 68625</a>
                 </li>
                 <li>
-                  <a href="mailto:info@knauss-logistics.com" className="hover:text-white transition-colors">info@knauss-logistics.com</a>
-                </li>
-                <li className="text-gray-500 text-xs mt-2">
-                  Maučiuvio g. 17-4<br />
-                  LT-39380
+                  <a href="mailto:Knausslogistic2026@gmail.com" className="hover:text-white transition-colors">Knausslogistic2026@gmail.com</a>
                 </li>
               </ul>
             </div>
